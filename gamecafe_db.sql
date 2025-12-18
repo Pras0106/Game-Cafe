@@ -115,6 +115,37 @@ CREATE TABLE `food_or_drink` (
 
 -- --------------------------------------------------------
 
+-- Menambahkan data makanan
+INSERT INTO `food_or_drink` (nama, harga, deskripsi, kategori, url_gambar, stok) 
+VALUES (
+    'Nasi Goreng Spesial',
+    25000,
+    'Nasi goreng dengan telur, ayam, dan sayuran segar',
+    'makanan',
+    'https://example.com/nasigoreng.jpg',
+    50
+);
+
+-- Menambahkan data minuman
+INSERT INTO `food_or_drink` (nama, harga, deskripsi, kategori, url_gambar, stok) 
+VALUES (
+    'Es Teh Manis',
+    5000,
+    'Teh manis dingin yang menyegarkan',
+    'minuman',
+    'https://example.com/esteh.jpg',
+    100
+);
+
+INSERT INTO `food_or_drink` (nama, harga, deskripsi, kategori, url_gambar, stok) 
+VALUES (
+    'Piscok',
+    11000,
+    'Pisang goreng + SKM + Keju',
+    'cemilan',
+    'https://example.com/piscok.jpg',
+    85
+);
 --
 -- Struktur dari tabel `karyawan`
 --
